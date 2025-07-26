@@ -227,20 +227,6 @@ body {
   font-weight: 500;
 }
 
-/* Grid layouts */
-.grid {
-  display: grid;
-  gap: 30px;
-}
-
-.grid-2 {
-  grid-template-columns: 1fr 1fr;
-}
-
-.grid-3 {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 /* Feature cards */
 .feature-card {
   background: rgba(255, 255, 255, 0.95);

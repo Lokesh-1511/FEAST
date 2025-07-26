@@ -2,8 +2,8 @@ import React, { Suspense, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
-import Dashboard from './pages/Dashboard';
-import Profile from './pages/Profile';
+import ModernDashboard from './pages/ModernDashboard';
+import ModernProfile from './pages/ModernProfile';
 import './i18n/i18n'; // Initialize i18n
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
         }>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/" element={<ModernDashboard />} />
+            <Route path="/profile" element={<ModernProfile />} />
           </Routes>
         </Suspense>
       </div>
