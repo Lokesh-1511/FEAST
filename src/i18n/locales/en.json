@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "FEAST",
+    "subtitle": "Food Essentials Access & Supply Tracking"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "title": "FEAST Dashboard",
+    "subtitle": "Your comprehensive food supply management platform"
+  },
+  "sections": {
+    "vendorTools": "Vendor Tools",
+    "aiInsights": "AI Insights",
+    "marketTools": "Market Tools",
+    "logistics": "Logistics"
+  },
+  "features": {
+    "vpt": {
+      "title": "Vendor Proof Token (VPT)",
+      "description": "Verify your vendor status and unlock premium features"
+    },
+    "emergencySupply": {
+      "title": "Emergency Supply Posts",
+      "description": "Find urgent supply needs in your area"
+    },
+    "priceWhisperer": {
+      "title": "AI Price Whisperer",
+      "description": "Get AI-powered price predictions and insights"
+    },
+    "quantityOptimizer": {
+      "title": "AI Quantity Optimizer",
+      "description": "Optimize your crop quantities with smart recommendations"
+    },
+    "mandiPrices": {
+      "title": "Live Mandi Prices",
+      "description": "Real-time market prices from major mandis"
+    },
+    "supplierComparison": {
+      "title": "Supplier Comparison",
+      "description": "Compare prices and quality across suppliers"
+    },
+    "surplusExchange": {
+      "title": "Surplus-to-Shortage Exchange",
+      "description": "Connect surplus with shortage needs"
+    },
+    "splitLogistics": {
+      "title": "Smart Split Logistics",
+      "description": "Share delivery costs with other vendors"
+    },
+    "deliveryPooling": {
+      "title": "Delivery Slot Pooling",
+      "description": "Join shared delivery slots to reduce costs"
+    }
+  },
+  "profile": {
+    "title": "Vendor Profile",
+    "subtitle": "Manage your vendor information and verification status",
+    "vendorInfo": {
+      "title": "Vendor Information",
+      "description": "Update your business details",
+      "fullName": "Full Name",
+      "shopName": "Shop/Business Name",
+      "location": "Location/Address",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "products": "Products/Crops",
+      "saveProfile": "Save Profile"
+    },
+    "vptVerification": {
+      "title": "VPT Verification",
+      "description": "Vendor Performance Tracking system",
+      "verified": "Verified Vendor",
+      "pending": "Verification Pending",
+      "premiumAccess": "Premium Access Unlocked",
+      "completeSteps": "Complete the steps below to verify your vendor status",
+      "step1": "Step 1: Upload Shop Photo",
+      "step2": "Step 2: Location Verification",
+      "progress": "Verification Progress",
+      "benefits": "VPT Benefits"
+    }
+  },
+  "buttons": {
+    "postSurplus": "Post Surplus",
+    "joinRoute": "Join Route",
+    "join": "Join",
+    "uploadPhoto": "Upload Photo",
+    "verifyLocation": "Verify Location",
+    "cancel": "Cancel",
+    "save": "Save",
+    "getInsight": "Get Insight",
+    "optimize": "Optimize",
+    "addPrice": "Add Price",
+    "compare": "Compare"
+  },
+  "status": {
+    "completed": "Completed",
+    "pending": "Pending",
+    "urgent": "Urgent",
+    "verified": "Verified"
+  },
+  "units": {
+    "kg": "kg",
+    "quintal": "quintal",
+    "ton": "ton",
+    "away": "away"
+  },
+  "crops": {
+    "tomatoes": "Tomatoes",
+    "onions": "Onions",
+    "potatoes": "Potatoes",
+    "wheat": "Wheat",
+    "rice": "Rice",
+    "corn": "Corn"
+  },
+  "locations": {
+    "delhi": "Delhi",
+    "mumbai": "Mumbai",
+    "bangalore": "Bangalore",
+    "chennai": "Chennai",
+    "kolkata": "Kolkata",
+    "hyderabad": "Hyderabad"
+  },
+  "vendors": {
+    "ramVegetables": "Ram Vegetables",
+    "shyamTraders": "Shyam Traders",
+    "krishnaFarms": "Krishna Farms"
+  },
+  "routes": {
+    "sector1to5": "Sector 1-5",
+    "sector6to10": "Sector 6-10",
+    "northZone": "North Zone",
+    "southZone": "South Zone"
+  },
+  "time": {
+    "9amTo11am": "9:00 AM - 11:00 AM",
+    "2pmTo4pm": "2:00 PM - 4:00 PM",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening"
+  }
+}
