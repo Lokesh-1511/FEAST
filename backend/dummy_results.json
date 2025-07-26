@@ -1,0 +1,179 @@
+{
+  "pricePredictions": {
+    "tomatoes": {
+      "currentPrice": 25,
+      "predictions": [
+        { "date": "2025-07-27", "price": 26.5, "confidence": 0.85 },
+        { "date": "2025-07-28", "price": 27.2, "confidence": 0.82 },
+        { "date": "2025-07-29", "price": 28.0, "confidence": 0.78 },
+        { "date": "2025-07-30", "price": 27.5, "confidence": 0.75 },
+        { "date": "2025-07-31", "price": 26.8, "confidence": 0.73 },
+        { "date": "2025-08-01", "price": 25.9, "confidence": 0.70 },
+        { "date": "2025-08-02", "price": 24.5, "confidence": 0.68 }
+      ],
+      "factors": ["seasonal_demand", "weather_conditions", "supply_chain"],
+      "recommendation": "Price expected to peak midweek, consider buying early or late in the period"
+    },
+    "onions": {
+      "currentPrice": 20,
+      "predictions": [
+        { "date": "2025-07-27", "price": 20.5, "confidence": 0.88 },
+        { "date": "2025-07-28", "price": 21.0, "confidence": 0.86 },
+        { "date": "2025-07-29", "price": 21.8, "confidence": 0.84 },
+        { "date": "2025-07-30", "price": 22.2, "confidence": 0.81 },
+        { "date": "2025-07-31", "price": 22.5, "confidence": 0.79 },
+        { "date": "2025-08-01", "price": 23.0, "confidence": 0.76 },
+        { "date": "2025-08-02", "price": 23.5, "confidence": 0.74 }
+      ],
+      "factors": ["storage_costs", "demand_increase", "transportation"],
+      "recommendation": "Steady upward trend expected, consider stocking up now"
+    },
+    "potatoes": {
+      "currentPrice": 15,
+      "predictions": [
+        { "date": "2025-07-27", "price": 14.8, "confidence": 0.90 },
+        { "date": "2025-07-28", "price": 14.5, "confidence": 0.89 },
+        { "date": "2025-07-29", "price": 14.2, "confidence": 0.87 },
+        { "date": "2025-07-30", "price": 13.8, "confidence": 0.85 },
+        { "date": "2025-07-31", "price": 13.5, "confidence": 0.83 },
+        { "date": "2025-08-01", "price": 13.2, "confidence": 0.80 },
+        { "date": "2025-08-02", "price": 12.9, "confidence": 0.78 }
+      ],
+      "factors": ["harvest_season", "oversupply", "storage_efficiency"],
+      "recommendation": "Prices declining due to fresh harvest, good time for bulk purchases"
+    }
+  },
+  
+  "quantityOptimization": {
+    "sampleVendor": {
+      "optimizedItems": [
+        {
+          "item": "tomatoes",
+          "currentStock": 50,
+          "recommendedQuantity": 75,
+          "reasoning": "High demand expected, festival season approaching",
+          "priority": "high",
+          "estimatedSales": 85,
+          "profitMargin": "22%"
+        },
+        {
+          "item": "onions",
+          "currentStock": 30,
+          "recommendedQuantity": 60,
+          "reasoning": "Steady demand, price trending upward",
+          "priority": "medium",
+          "estimatedSales": 55,
+          "profitMargin": "18%"
+        },
+        {
+          "item": "potatoes",
+          "currentStock": 80,
+          "recommendedQuantity": 100,
+          "reasoning": "Declining prices, opportunity for bulk purchase",
+          "priority": "low",
+          "estimatedSales": 90,
+          "profitMargin": "25%"
+        }
+      ],
+      "totalInvestment": 4250,
+      "expectedRevenue": 5100,
+      "expectedProfit": 850,
+      "roi": "20%",
+      "riskLevel": "low"
+    }
+  },
+  
+  "marketInsights": {
+    "trending": [
+      {
+        "item": "organic_vegetables",
+        "trend": "increasing",
+        "change": "+35%",
+        "reason": "Health consciousness rising"
+      },
+      {
+        "item": "exotic_fruits",
+        "trend": "increasing",
+        "change": "+28%",
+        "reason": "Urban demand growth"
+      },
+      {
+        "item": "processed_foods",
+        "trend": "decreasing",
+        "change": "-15%",
+        "reason": "Fresh food preference"
+      }
+    ],
+    "seasonalAlerts": [
+      {
+        "type": "festival_demand",
+        "items": ["sweets", "fruits", "dairy"],
+        "expectedIncrease": "40-60%",
+        "timeline": "Next 2 weeks"
+      },
+      {
+        "type": "weather_impact",
+        "items": ["leafy_vegetables", "tomatoes"],
+        "risk": "supply_disruption",
+        "timeline": "Next week"
+      }
+    ],
+    "priceAlerts": [
+      {
+        "item": "cooking_oil",
+        "alert": "price_spike",
+        "expectedChange": "+12%",
+        "reason": "Global supply chain issues"
+      },
+      {
+        "item": "rice",
+        "alert": "price_drop",
+        "expectedChange": "-8%",
+        "reason": "Bumper harvest reported"
+      }
+    ]
+  },
+  
+  "demandForecasting": {
+    "weeklyForecast": {
+      "vegetables": {
+        "week1": { "demand": 120, "confidence": 0.88 },
+        "week2": { "demand": 135, "confidence": 0.85 },
+        "week3": { "demand": 110, "confidence": 0.82 },
+        "week4": { "demand": 125, "confidence": 0.79 }
+      },
+      "fruits": {
+        "week1": { "demand": 80, "confidence": 0.90 },
+        "week2": { "demand": 95, "confidence": 0.87 },
+        "week3": { "demand": 75, "confidence": 0.84 },
+        "week4": { "demand": 85, "confidence": 0.81 }
+      },
+      "grains": {
+        "week1": { "demand": 200, "confidence": 0.92 },
+        "week2": { "demand": 205, "confidence": 0.91 },
+        "week3": { "demand": 195, "confidence": 0.89 },
+        "week4": { "demand": 210, "confidence": 0.87 }
+      }
+    },
+    "factors": [
+      "Historical sales patterns",
+      "Seasonal variations",
+      "Local events and festivals",
+      "Weather forecasts",
+      "Economic indicators"
+    ]
+  },
+  
+  "metadata": {
+    "lastUpdated": "2025-07-26T12:00:00Z",
+    "version": "1.0.0",
+    "dataSource": "FEAST_AI_SIMULATOR",
+    "disclaimer": "This is simulated data for development purposes. Actual AI predictions will be generated by the Python service.",
+    "coverage": {
+      "items": 25,
+      "locations": 10,
+      "vendors": 100,
+      "timeRange": "30 days"
+    }
+  }
+}
